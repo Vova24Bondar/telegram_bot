@@ -5,3 +5,4 @@ class User(models.Model):
     last_name = models.CharField(max_length=20, null=False)
     username = models.CharField(max_length=30, null=False)
     password = models.CharField(max_length=50, null=False)
+
